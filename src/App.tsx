@@ -2,6 +2,12 @@ import axios from "axios";
 import { useState } from "react";
 import "./styles.css";
 import { Todo } from "./Todo";
+import { UserProfile } from "./UserProfile";
+
+const user = {
+  name: "じゃけぇ",
+  hobbies: ["映画", "ゲーム"]
+};
 
 // 一般的にTypeの先頭は大文字
 type TodoType = {
