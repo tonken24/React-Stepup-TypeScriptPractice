@@ -4,6 +4,7 @@ import { User } from "./types/user";
 type Props = {
   user: User;
 };
+
 export const UserProfile: VFC<Props> = (props) => {
   const { user } = props;
   return (
